@@ -54,3 +54,4 @@ dkms.conf
 Makefile*
 *build-*
 .idea/
+.DS_Store
