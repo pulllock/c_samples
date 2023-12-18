@@ -5,6 +5,7 @@ c samples
 # 指定初始化器（Designated Initializer）
 
 - [指定初始化数组元素](./designated_initializer_array/main.c)
+- [指定初始化结构体成员](./designated_initializer_struct/main.c)
 
 # struct
 

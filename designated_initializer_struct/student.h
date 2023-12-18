@@ -1,0 +1,9 @@
+#ifndef DESIGNATED_INITIALIZER_STRUCT_STUDENT_H
+#define DESIGNATED_INITIALIZER_STRUCT_STUDENT_H
+
+#endif //DESIGNATED_INITIALIZER_STRUCT_STUDENT_H
+
+struct student{
+    char name[20];
+    int age;
+};
