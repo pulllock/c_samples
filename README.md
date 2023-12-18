@@ -2,6 +2,10 @@
 
 c samples
 
+# 指定初始化器（Designated Initializer）
+
+- [指定初始化数组元素](./designated_initializer_array/main.c)
+
 # struct
 
 # C预处理器
