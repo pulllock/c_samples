@@ -7,6 +7,9 @@ c samples
 - [指定初始化数组元素](./designated_initializer_array/main.c)
 - [指定初始化结构体成员](./designated_initializer_struct/main.c)
 
+# 语句表达式
+
+- [语句表达式](./statement_expression/main.c)：允许在一个表达式里内嵌语句，格式如下：`({表达式1; 表达式2; 表达式3})`，语句表达式的值为内嵌语句中最后一个表达式的值
 # struct
 
 # C预处理器
