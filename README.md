@@ -29,7 +29,9 @@ GUN C的`__attribute__`关键字用来声明一个函数、变量、类型的特
 - [aligned](./function_attributes_aligned/main.c)：显式的指定变量或类型在内存中的地址对齐方式
 - [packed](./function_attributes_packed/main.c)：用来指定变量或类型使用最可能小的地址对齐方式
 
-# struct
+# 变参函数（Variadic Function）
+
+- [变参函数](./variadic_function/main.c)
 
 # C预处理器
 
