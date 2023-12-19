@@ -19,6 +19,7 @@ c samples
 # 变长数组（Variable Length）和零长度数组（Length Zero）
 
 - [变长数组](./variable_length_array/main.c)
+- [零长度数组](./length_zero_array/main.c)
 
 # struct
 
