@@ -12,6 +12,10 @@ c samples
 - [语句表达式](./statement_expression/main.c)：允许在一个表达式里内嵌语句，格式如下：`({表达式1; 表达式2; 表达式3})`，语句表达式的值为内嵌语句中最后一个表达式的值
 - [在宏定义中使用语句表达式](./statement_expression_macro/main.c)
 
+# 获取变量或表达式的类型（typeof）
+
+- [获取变量或表达式的类型](./typeof/main.c)
+
 # struct
 
 # C预处理器
