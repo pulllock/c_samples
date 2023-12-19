@@ -26,7 +26,8 @@ c samples
 GUN C的`__attribute__`关键字用来声明一个函数、变量、类型的特殊属性，主要用来指导编译器在编译程序时进行特定方面的优化或代码检查。格式：`__attribute__((Some Attribute))`
 
 - [section](./function_attributes_section/main.c)：在编译程序时，将一个函数或变量放到指定的段（section）中
-- [aligned](./function_attributes_aligned)：显式的指定变量或类型在内存中的地址对齐方式
+- [aligned](./function_attributes_aligned/main.c)：显式的指定变量或类型在内存中的地址对齐方式
+- [packed](./function_attributes_packed/main.c)：用来指定变量或类型使用最可能小的地址对齐方式
 
 # struct
 
