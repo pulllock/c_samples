@@ -21,6 +21,12 @@ c samples
 - [变长数组](./variable_length_array/main.c)
 - [零长度数组](./length_zero_array/main.c)
 
+# 函数属性（Function Attributes）
+
+GUN C的`__attribute__`关键字用来声明一个函数、变量、类型的特殊属性，主要用来指导编译器在编译程序时进行特定方面的优化或代码检查。格式：`__attribute__((Some Attribute))`
+
+- [section](./function_attributes_section/main.c)：在编译程序时，将一个函数或变量放到指定的段（section）中
+
 # struct
 
 # C预处理器
