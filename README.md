@@ -16,6 +16,10 @@ c samples
 
 - [获取变量或表达式的类型](./typeof/main.c)
 
+# 变长数组（Variable Length）和零长度数组（Length Zero）
+
+- [变长数组](./variable_length_array/main.c)
+
 # struct
 
 # C预处理器
