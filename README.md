@@ -38,6 +38,10 @@ GUN C的`__attribute__`关键字用来声明一个函数、变量、类型的特
 
 - [可变参数宏](./variadic_macros/main.c)
 
+# 文件
+
+- [文件](./file_sample/main.c)
+
 # C预处理器
 
 - `#define`：明示常量（符号常量），每行`#define`由3部分组成：

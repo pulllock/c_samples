@@ -4,7 +4,7 @@
 
 void fgets_sample() {
     FILE *file_pointer;
-    char *file_name = "../sample.conf";
+    char *file_name = "fgets.conf";
 
     if ((file_pointer = fopen(file_name, "r")) == NULL) {
         printf("can not open file: %s", file_name);
