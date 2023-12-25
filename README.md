@@ -34,9 +34,10 @@ GUN C的`__attribute__`关键字用来声明一个函数、变量、类型的特
 
 - [变参函数](./variadic_function/main.c)
 
-# 可变参数宏（Variadic Macros）
+# 宏
 
-- [可变参数宏](./variadic_macros/main.c)
+- [宏](./macro_sample/main.c)
+- [可变参数宏（Variadic Macros）](./variadic_macros/main.c)
 
 # 文件
 
