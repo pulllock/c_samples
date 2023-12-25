@@ -1,9 +1,8 @@
-#include <stdint.h>
-
+// 防止packed.h被重复引用
 #ifndef ATTRIBUTE_SAMPLE_PACKED_H
 #define ATTRIBUTE_SAMPLE_PACKED_H
 
-#endif //ATTRIBUTE_SAMPLE_PACKED_H
+#include <stdint.h>
 
 struct __attribute__ ((__packed__)) packed_struct {
     unsigned char uc1;
@@ -51,3 +50,5 @@ void unpacked_struct_student_sample();
 void packed_struct_student_sample();
 
 void sdshdr64_sample();
+
+#endif //ATTRIBUTE_SAMPLE_PACKED_H

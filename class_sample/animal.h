@@ -1,7 +1,6 @@
+// 防止animal.h被重复引用
 #ifndef CLASS_SAMPLE_ANIMAL_H
 #define CLASS_SAMPLE_ANIMAL_H
-
-#endif //CLASS_SAMPLE_ANIMAL_H
 
 struct func_operations {
     void (*fp1)(void);
@@ -17,3 +16,5 @@ struct animal {
 };
 
 void speak(void);
+
+#endif //CLASS_SAMPLE_ANIMAL_H

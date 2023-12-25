@@ -1,9 +1,8 @@
-#include "animal.h"
-
+// 防止cat.h被重复引用
 #ifndef CLASS_SAMPLE_CAT_H
 #define CLASS_SAMPLE_CAT_H
 
-#endif //CLASS_SAMPLE_CAT_H
+#include "animal.h"
 
 struct cat {
     struct animal *p;
@@ -11,3 +10,5 @@ struct cat {
     char sex;
     void (*eat)(void);
 };
+
+#endif //CLASS_SAMPLE_CAT_H

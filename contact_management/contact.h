@@ -1,7 +1,6 @@
+// 防止contact.h被重复引用
 #ifndef CONTACT_MANAGEMENT_CONTACT_H
 #define CONTACT_MANAGEMENT_CONTACT_H
-
-#endif //CONTACT_MANAGEMENT_CONTACT_H
 
 // 名字最大长度
 #define MAX_NAME_LENGTH 10
@@ -111,3 +110,5 @@ void load(struct contact* contact);
  * @param contact
  */
 void clear(struct contact* contact);
+
+#endif //CONTACT_MANAGEMENT_CONTACT_H

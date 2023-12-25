@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <string.h>
+// 防止book.h被重复引用
 #ifndef STRUCT_SAMPLE_BOOK_H
 #define STRUCT_SAMPLE_BOOK_H
 
-#endif //STRUCT_SAMPLE_BOOK_H
+#include <stdio.h>
+#include <string.h>
 
 // 书名最大长度+1
 #define MAX_TITLE_LENGTH 41
@@ -33,3 +33,5 @@ void struct_initializer_sample();
  * 结构数组
  */
 void struct_array_sample();
+
+#endif //STRUCT_SAMPLE_BOOK_H
